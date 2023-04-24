@@ -6,5 +6,9 @@ def main(s):
     Returns:
         bool: answer
     """
-    
-    return
+    if s.isdigit() and s.isalpha():
+        a="false"
+    else :
+        a="true"
+    return a
+print(main("123"))
