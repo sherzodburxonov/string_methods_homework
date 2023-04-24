@@ -6,5 +6,6 @@ def main(s):
     Returns:
         bool: answer
     """
-    
-    return
+
+    return s.lower()==s
+print(main("Codeschool"))
